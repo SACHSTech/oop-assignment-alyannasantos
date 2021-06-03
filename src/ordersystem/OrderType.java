@@ -2,6 +2,6 @@ package ordersystem;
 
 public abstract class OrderType {
 
-  public abstract double calculateTotal();
+  public abstract double calculateAdditionalCharge();
 
 }

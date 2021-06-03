@@ -1,1 +1,9 @@
 language = "java10"
+
+# COMPILE the CLASS
+#run = "javac -d bin -classpath bin src/ordersystem/MenuItem.java"
+
+#run = "javac -d bin -classpath bin src/ordersystem/MenuItem.java src/ordersystem/Restaurant.java src/ordersystem/Customer.java src/ordersystem/DeliveryOrder.java src/ordersystem/Order.java src/ordersystem/OrderItem.java src/ordersystem/OrderType.java src/ordersystem/PickupOrder.java src/ordersystem/TestOrderSystem.java"
+
+# RUN THE CLASS
+#run = "java --class-path bin ordersystem.TestOrderSystem"

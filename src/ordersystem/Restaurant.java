@@ -6,7 +6,7 @@ public class Restaurant {
 
   private String name;
   private String address;
-  private ArrayList menuItemList = new ArrayList<MenuItem>();
+  private ArrayList<MenuItem> menuItemList = new ArrayList<MenuItem>();
 
   public Restaurant(String name, String address) {
 
@@ -25,5 +25,12 @@ public class Restaurant {
 
   public String getAddress() {
     return address;
+  }
+
+  public MenuItem getMenuItem(int index) {
+    if (index > menuItemList.size() - 1) {
+      return null;
+    }
+    return menuItemList.get(index);
   }
 }
